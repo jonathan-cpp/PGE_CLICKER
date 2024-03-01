@@ -1,0 +1,72 @@
+#pragma once
+
+//////////////////////////////////////////////////////////
+// Standard Library Headers
+//////////////////////////////////////////////////////////
+
+
+
+//////////////////////////////////////////////////////////
+// External Library Headers
+//////////////////////////////////////////////////////////
+
+#include <entt.hpp>
+#include "olcPixelGameEngine.h"
+
+//////////////////////////////////////////////////////////
+// Project Headers
+//////////////////////////////////////////////////////////
+
+#include "Components.h"
+#include "Config.h"
+#include "Utility.h"
+#include "EventSystem.h"
+
+//////////////////////////////////////////////////////////
+// Forward Declarations
+//////////////////////////////////////////////////////////
+
+
+
+//////////////////////////////////////////////////////////
+// Constants and Enums
+//////////////////////////////////////////////////////////
+
+
+
+//////////////////////////////////////////////////////////
+// Class Declaration
+//////////////////////////////////////////////////////////
+
+class ISystem {
+public:
+    ISystem(entt::registry& registry, olc::PixelGameEngine* pge)
+        : m_registry(registry), m_pge(pge) {}
+    virtual ~ISystem() = default;
+
+    virtual void Update(float deltaTime) = 0;
+
+    virtual void FixedUpdate(float deltaTime) {}
+
+    virtual void Render() {};
+
+    entt::registry& GetRegistry() { return m_registry; }
+
+     olc::PixelGameEngine* GetPGE() { return m_pge; }
+
+protected:
+    // Protected Functions
+
+private:
+    ISystem(const ISystem&) = delete;
+    ISystem(ISystem &&) = delete;
+    ISystem& operator=(const ISystem&) = delete;
+    ISystem&& operator=(ISystem&&) = delete;
+
+private:
+    // Private Functions
+
+private:
+    entt::registry& m_registry;
+    olc::PixelGameEngine* m_pge;
+};

@@ -1,0 +1,3 @@
+C:/Dev/PixelGameEngine/automata/build/CMakeFiles/ALL_BUILD.dir
+C:/Dev/PixelGameEngine/automata/build/CMakeFiles/ZERO_CHECK.dir
+C:/Dev/PixelGameEngine/automata/build/client/CMakeFiles/client.dir

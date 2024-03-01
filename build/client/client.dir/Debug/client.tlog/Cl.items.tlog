@@ -1,0 +1,7 @@
+C:\Dev\PixelGameEngine\automata\client\src\core\main.cpp;C:\Dev\PixelGameEngine\automata\build\client\client.dir\Debug\main.obj
+C:\Dev\PixelGameEngine\automata\client\src\core\Client.cpp;C:\Dev\PixelGameEngine\automata\build\client\client.dir\Debug\Client.obj
+C:\Dev\PixelGameEngine\automata\client\src\managers\SceneManager.cpp;C:\Dev\PixelGameEngine\automata\build\client\client.dir\Debug\SceneManager.obj
+C:\Dev\PixelGameEngine\automata\client\src\scenes\MainMenuScene.cpp;C:\Dev\PixelGameEngine\automata\build\client\client.dir\Debug\MainMenuScene.obj
+C:\Dev\PixelGameEngine\automata\client\src\systems\RenderSystem.cpp;C:\Dev\PixelGameEngine\automata\build\client\client.dir\Debug\RenderSystem.obj
+C:\Dev\PixelGameEngine\automata\client\src\systems\CollectorSystem.cpp;C:\Dev\PixelGameEngine\automata\build\client\client.dir\Debug\CollectorSystem.obj
+C:\Dev\PixelGameEngine\automata\libs\pge\olcPixelGameEngine.cpp;C:\Dev\PixelGameEngine\automata\build\client\client.dir\Debug\olcPixelGameEngine.obj
